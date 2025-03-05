@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000;
+  flex-direction: column;
+}
+
+#game-container {
+  position: relative;
+}
+
+#tetris {
+  border: 2px solid #fff;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#new-game {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
